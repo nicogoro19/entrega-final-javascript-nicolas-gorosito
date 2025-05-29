@@ -1,4 +1,4 @@
-Hola profesores, buenas tardes
+Hola profesores, buenas noches
 les paso mi entrega final del curso de javascript, les cuento un poco lo que quise hacer.
 mi idea fue hacer un carrito de compras de una consesionaria de autos, para esto lo que logre fue:
 
@@ -14,3 +14,8 @@ mi idea fue hacer un carrito de compras de una consesionaria de autos, para esto
 -ademas agregue 2 formulario, uno de pago y otro de inicio de sesion.(se que dijeron que no hacia falta pero me hacia ilusion que esten los formularios)
 -estuve investigando como se hacen las validaciones de formulario, el de inicio de sesion quedo bien, pero el de pago no le encuentro el error por el que no me cierra la validacion
 -una cosa que me falto hacer ya que no supe como hacer y no me dio el tiempo es que el formulario de inicio de sesion sea un requisito obligatorio para realizar el pago de los productos
+
+saludos
+Nicolas Gorosito
+
+
