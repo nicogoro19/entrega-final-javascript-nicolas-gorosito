@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "modelo":"ferrari",
+        "nombre":"purosangue",
+        "precio":130000,
+        "img":"img1.jpg"
+    },
+    {
+        "id":2,
+        "modelo":"bmw",
+        "nombre":"m4 competition",
+        "precio":80000,
+        "img":"img2.jpeg"
+    },
+    {
+        "id":3,
+        "modelo":"mecedes",
+        "nombre":"c63 amg",
+        "precio":100000,
+        "img":"img3.webp"
+    },
+    {
+        "id":4,
+        "modelo":"alfa romeo",
+        "nombre":"julieta",
+        "precio":50000,
+        "img":"img4.jpg"
+    },
+    {
+        "id":5,
+        "modelo":"bmw",
+        "nombre":"m3",
+        "precio":80000,
+        "img":"img5.jpg"
+    },
+    {
+        "id":6,
+        "modelo":"lamborghini",
+        "nombre":"veneno",
+        "precio":170000,
+        "img":"img6.jpeg"
+    },
+    {
+        "id":7,
+        "modelo":"volkswagen",
+        "nombre":"vento gli",
+        "precio":30000,
+        "img":"img1.jpg"
+    },
+    {
+        "id":8,
+        "modelo":"mbw",
+        "nombre":"X6M",
+        "precio":75000,
+        "img":"img2.jpeg"
+    },
+    {
+        "id":9,
+        "modelo":"volkswagen",
+        "nombre":"golf gti mk7.5",
+        "precio":35000,
+        "img":"img3.webp"
+    }
+]

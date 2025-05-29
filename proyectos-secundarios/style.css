@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------- INDEX ------------- */
+
+.body{
+    background-color: rgb(0, 65, 79);
+}
+.index-header{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: whitesmoke;
+}
+
+.div-img-headerLogo{
+
+    padding-top:  1vh;
+}
+.img-header-navLogo{
+    height: 10vh;
+}
+
+.index-header-nav{
+    align-content: center;
+    
+}
+.index-header-nav-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15vw;
+    list-style: none;
+    border: 7px soli black;
+}
+
+.header-nav-ul-a{
+    text-decoration: none;
+    color: black;
+}
+
+.section-index1{
+    text-align: center;
+}
+
+.indexH1{
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img-portada{
+    width: 70vw;
+}
+.cartelera{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-evenly;
+    justify-items: center;
+    gap: 5vh;
+}
+
+.products-card{
+    border: 1px solid black;
+    width: 17vw;
+    height: 30vh;
+    background-color: whitesmoke;
+    align-content: center;
+    justify-items: center;
+    border-radius:  10%;
+}
+.card-img-container{
+    width: 15vw;
+    height: 15vh;
+    align-content: center;
+    justify-items: center;
+    
+}
+.card-img-auto{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+}
+
+.info-auto{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer{
+    background-color: rgb(6, 0, 80);
+    color: whitesmoke;
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10vh;
+}
+
+.form-footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-footer{
+    margin: 10px;
+    padding: 10px;
+    width: 30vw;
+}
+.textarea-form{
+    max-width: 30vw;
+    max-height: 40vh;
+}
+/* ------------- INDEX ENDS------------- */
+/* ------------- menu lateral------------- */
+.menu-lateral {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    position: fixed;
+    left: 7px;
+    bottom: 200px;
+    margin: 5px;
+  }
+  .menu-lateral .menu-lateral-logo {
+    width: 50px;
+    padding: 5px;
+  }
+/* ------------- menu lateral ends------------- */
+
+
+
+
+/* -------------carrito------------- */
+.cartContainer{
+    justify-self: center;
+    justify-items: center;
+    padding: 4vh;
+    margin: 3vh;
+}
+
+.titulo-carrito{
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.CartContenedor{
+    width: 70vw;
+}
+.cartSection{
+    align-items: center;
+    background-color: whitesmoke;
+    width: 70vw;
+    align-content: center;
+    justify-items: center;
+    border-radius: 5vw;
+}
+.products-cart{
+    border: 3px solid black;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    padding: 1%;
+    margin: 3%;
+    width: 60vw;
+    justify-content: space-around;
+    gap: 13vw;
+    text-align: center;
+}
+.cart-img{
+    width: 10vw;
+    border-radius: 5vh;
+}
+.cart-info-auto{
+    justify-items: center;
+    width: 10vw;
+    align-content: center;
+}
+.cart-contador{
+    align-content: center;
+}
+.plusButton, .minusButton{
+    height: 3vh;
+    width: 2vw;
+}
+.counter{
+    font-size: 3vh;
+}
+
+.vaciarCartButton, .pagarCart{
+    margin-top: 6vh;
+    font-size: 5vh;
+    width: 30vw;
+
+}
+
+.containerTotalcartP{
+    width: 35vw;
+    height: 5vh;
+    background-color: whitesmoke;
+    border-radius: 3vw;
+    margin: 3vh;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+}
+.containerTotalPrecCartP{
+    width: 35vw;
+    height: 5vh;
+    background-color: whitesmoke;
+    border-radius: 3vw;
+    margin: 3vh;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+.containerVolverMenuCart{
+    color: black;
+    text-decoration: none;
+    margin: 2wh;
+}
+
+
+/* ---------------carrito vacio----------------- */
+
+.carritoVacio{
+    height: 15vh;
+    font-size: 4vh;
+    text-align: center;
+    align-content: center;
+}
+
+/* -------------carrito ends------------- */
+
+/* --------------------pago ----------------------- */
+
+.sectionPago{
+    justify-content: center;
+    justify-items: center;
+}
+.formPaymentContainer{
+    width: 70vw;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.h2Form .h3Form{
+    text-decoration: underline;
+}
+.h3Form{
+    margin-top: 5vh;
+}
+.paymentForm{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 2%;
+}
+.formPay{
+    width: 30vw;
+    height: 4vh;
+    margin: 10%;
+}
+.input{
+    text-align: center;
+}
+
+
+
+
+
+/* --------------------pago ends ----------------------- */
+
+/* --------------------------------------------log in--------------------------------------------- */
+
+.mainLogIn, .mainPago{
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 40px;
+    justify-items: center;
+}
+
+.h3LogIn, .h3Pago{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 6vh;
+}
+.contenedorFormulario{
+    width: 70vw;
+    background-color: rgba(11, 156, 98, 0.708);
+    padding: 3%;
+    border: 5px solid black;
+    border-radius: 3vw;
+    text-align: center;
+}
+.formulario{
+	display: grid;
+	grid-template-columns: repeat(2fr 1fr);
+	gap: 20px;
+}
+
+.formulario__label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+.formulario__input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__checkbox {
+	margin-right: 10px;
+}
+
+.formulario__grupo-terminos, 
+.formulario__grupo-btn-enviar {
+	grid-column: span 2;
+}
+
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: #000;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+
+/* ------------------ validacion --------- */
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #ab0d0d;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+
+
+/* -------------------------------------------log in ends -------------------------------------------- */
+
+
+
+
+/*----------------------------------------- pago -----------------------------------------*/
+
+
+
+
+
+
+
+/* ------------------------------------------ pago ends ---------------------------------------- */
+
+
+

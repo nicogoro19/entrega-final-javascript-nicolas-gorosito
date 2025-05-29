@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrito de compras</title>
+    <script defer src="carrito.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../imagenes/imgLogo.webp">
+</head>
+<body class="body">
+    <header  class="index-header">
+        <div class="div-img-headerLogo">
+            <a href="../index.html"><img class="img-header-navLogo" src="../imagenes/imgLogo.webp" alt="logo del nav"></a>
+        </div>
+        <nav class="index-header-nav">
+            <ul class="index-header-nav-ul">
+                <li><a class="header-nav-ul-a" href="../index.html">menu principal</a></li>
+                <li><a class="header-nav-ul-a" href="login.html">log in</a></li>
+                <li><a class="header-nav-ul-a" href="aboutUs.html">about us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    
+    <!-- ----------------------cart section ---------------------- -->
+
+    <h2 class="titulo-carrito">TU CARRITO DE COMPRAS</h2>
+    <div id="cartContainer" class="cartContainer">
+        <section class="cartSection" id="cartSection"></section>
+        <div class="cart-totales">
+            <div class="containerTotalcartP" id="containerTotalcartP"><p id="totalcartP" class="totalcartP">Cantidad total de productos: 0</p></div>
+            <div class="containerTotalPrecCartP" id="containerTotalPrecCartP"><p id="total$CartP" class="totalPrecCartP">Total: $0</p></div>
+        </div>
+        <button class="vaciarCartButton" id="vaciarCartButton">vaciar carrito</button>
+        <a href="pago.html"><button class="pagarCart" id="pagarCart">pago</button></a>
+    </div>
+
+
+<!------------------------- cart section ends----------------------- --> 
+<!------------------------- menu lateral----------------------- --> 
+
+
+    <section class="menu-lateral">
+        <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img class="menu-lateral-logo"  src="../imagenes/logo-whatsapp.jpg" alt="imagen logo de whatsapp"></a>
+        <a href="https://www.instagram.com/" target="_blank" ><img class="menu-lateral-logo"  src="../imagenes/logo instagram.jpg" alt="imagen logo de instagram"></a>
+        <a href="https://x.com/?lang=es&mx=2" target="_blank" ><img class="menu-lateral-logo"  src="../imagenes/logo-X.jpg" alt="imagen logo de x"></a>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank" ><img class="menu-lateral-logo"  src="../imagenes/logo-facebook.jpg" alt="imagen logo ded facebook"></a>
+    </section>
+
+
+
+    <!------------------------- menu lateral ends----------------------- --> 
+    <!-- ----------------------footer----------------------- -->
+    <footer class="footer">
+        <h3>todos los derechos reservados</h3>
+        <div class="footer-container">
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13597.660518136769!2d-58.374356101869!3d-34.6138078833427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3353ce5c1032d%3A0xb1d918e4bf48ca49!2sMB%20CARS%20MADERO!5e0!3m2!1ses-419!2sar!4v1747929063053!5m2!1ses-419!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="form-container">
+                <form class="form-footer-container" action="">
+                    <h3>DEJANOS TU MENSAJE:</h3>
+                    <label for="nombre">nombre</label>
+                    <input class="input-footer"  type="text" placeholder="nicolas gorosito">
+
+                    <label for="nombre">mail</label>
+                    <input  class="input-footer" type="text" placeholder="nicolas.goro123@gmail.com">
+
+                    <label for="">dejanos un mensaje</label>
+                    <textarea class="input-footer textarea-form"></textarea>
+
+                    <input  class="input-footer " type="submit">
+
+                </form>
+            </div>
+        </div>
+        <div><img src="../imagenes/imgLogo.webp" alt=""></div>
+    </footer>
+
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

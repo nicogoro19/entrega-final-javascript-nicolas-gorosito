@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="pago.js"></script>
+    <title>pago</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../imagenes/imgLogo.webp">
+</head>
+<body class="body">
+    <header  class="index-header">
+        <div class="div-img-headerLogo">
+            <a href="../index.html"><img class="img-header-navLogo" src="../imagenes/imgLogo.webp" alt="logo del nav"></a>
+        </div>
+        <nav class="index-header-nav">
+            <ul class="index-header-nav-ul">
+                <li><a class="header-nav-ul-a" href="../index.html">menu principal</a></li>
+                <li><a class="header-nav-ul-a" href="carrito.html">carrito</a></li>
+                <li><a class="header-nav-ul-a" href="login.html">log in</a></li>
+                <li><a class="header-nav-ul-a" href="aboutUs.html">about us</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <main class="mainPago">
+
+        <div class="contenedorFormulario">
+            <h3 class="h3Pago">formulario de pago</h3>
+            <form action="formularioDePago" class="formulario" id="formularioPago">
+                <div class="formulario__grupo" id="grupoNombre">
+                    <label for="" class="formularioLabel">ingrese su nombre</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" placeholder="nicolas gorosito" id="nombreTarjeta">
+                        <i class="formulario__validacion-estado"></i>
+                    </div>
+                    <p class="formulario__input-error">el nombre de usuario debe tener entre 4 y 16 digitos para que sea correcto.</p>
+                </div>
+
+                <div class="formulario__grupo" id="grupoNombre">
+                    <label for="NumTarjeta" class="formularioLabel">ingrese el numero de su tarjeta</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="NumTarjeta" placeholder="1111-2222-3333" id="tarjeta">
+                        <i class="formulario__validacion-estado"></i>
+                    </div>
+                    <p class="formulario__input-error">error, ingrese correctamente su </p>
+                </div>
+
+                <div class="formulario__grupo" id="grupoNombre">
+                    <label for="codTarjeta" class="formularioLabel">ingrese el codigo de seguridad de la tarjeta</label>
+                    <div class="formulario__grupo-input">
+                        <input type="password" class="formulario__input" name="codTarjeta" placeholder="nicolas" id="cvv">
+                        <i class="formulario__validacion-estado"></i>
+                    </div>
+                    <p class="formulario__input-error">error, ingrese correctamente el codigo de seguridad de su tarjeta </p>
+                </div>
+
+                <div class="formulario__grupo" id="grupoNombre">
+                    <label for="fechaVencimiento" class="formularioLabel">ingrese la fecha de vencimiento de su tarjeta</label>
+                    <div class="formulario__grupo-input">
+                        <input type="date" class="formulario__input" name="fechaVencimiento" id="vencimiento">
+                        <i class="formulario__validacion-estado"></i>
+                    </div>
+                    <p class="formulario__input-error">error, ingrese correctamente la fecha de vencimiento de su tarjeta </p>
+                </div>
+
+                <div class="formulario__grupo" id="grupoNombre">
+                    <label for="" class="formularioLabel">ingrese su correo electronico</label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input" name="usuario" placeholder="nicolas.goro123@gmail.com" id="email">
+                        <i class="formulario__validacion-estado"></i>
+                    </div>
+                    <p class="formulario__input-error">error, ingrese correctamente su mail</p>
+                </div>
+
+                <p class="formulario__input-error">ERROR, envie correctamente el formulario</p>
+
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+		    		<button type="submit" class="formulario__btn">Enviar</button>
+		    	</div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h3>todos los derechos reservados</h3>
+        <div class="footer-container">
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13597.660518136769!2d-58.374356101869!3d-34.6138078833427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3353ce5c1032d%3A0xb1d918e4bf48ca49!2sMB%20CARS%20MADERO!5e0!3m2!1ses-419!2sar!4v1747929063053!5m2!1ses-419!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="form-container">
+                <form class="form-footer-container" action="">
+                    <h3>DEJANOS TU MENSAJE:</h3>
+                    <label for="nombre">nombre</label>
+                    <input class="input-footer"  type="text" placeholder="nicolas gorosito">
+
+                    <label for="nombre">mail</label>
+                    <input  class="input-footer" type="text" placeholder="nicolas.goro123@gmail.com">
+
+                    <label for="">dejanos un mensaje</label>
+                    <textarea class="input-footer textarea-form"></textarea>
+
+                    <input  class="input-footer " type="submit">
+
+                </form>
+            </div>
+        </div>
+        <div><img src="imagenes/imgLogo.webp" alt=""></div>
+    </footer>
+</body>
+</html>
