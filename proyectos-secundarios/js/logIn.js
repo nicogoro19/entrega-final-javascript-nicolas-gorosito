@@ -80,4 +80,3 @@ inputs.forEach((input) => {
 	input.addEventListener('keyup', validarFormulario)
 	input.addEventListener('blur', validarFormulario)
 })
-

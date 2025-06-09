@@ -173,13 +173,15 @@
     border-radius: 5vh;
     display: flex;
     flex-direction: row;
-    background-color: red;
+    background-color: rgb(9, 5, 72);
     padding: 1%;
     margin: 3%;
     width: 60vw;
     justify-content: space-around;
     gap: 13vw;
     text-align: center;
+    color: white;
+    align-items: center;
 }
 .cart-img{
     width: 10vw;
@@ -413,15 +415,26 @@
 
 
 
-/*----------------------------------------- pago -----------------------------------------*/
+/*----------------------------------------- resumen -----------------------------------------*/
+
+
+.containerResumen{
+    justify-items: center;
+}
+
+.tituloResumenCompra{
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+.botonBackToMenu{
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
 
 
 
-
-
-
-
-/* ------------------------------------------ pago ends ---------------------------------------- */
+/* ------------------------------------------ resumen ends ---------------------------------------- */
 
 
 

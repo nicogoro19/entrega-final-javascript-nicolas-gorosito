@@ -1,4 +1,4 @@
-const formulario = document.getElementById('formularioaPago')
+const formulario = document.getElementById('formularioDePago')
 const inputs = document.querySelectorAll('#formulario input')
 
 const expresiones = {
@@ -19,7 +19,7 @@ const campos = {
     email:false,
 }
 
-// funcion para validar formularios
+// -----------------funcion para validar formularios--------------
 
 function validarFormulario(e){
     switch(e.target.name){
